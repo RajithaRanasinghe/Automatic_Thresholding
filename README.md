@@ -1,6 +1,6 @@
 # Automatic_Thresholding
 
-This application can be used to quickly view how different **Thresholding Methods** work on images. Selected threshold methods can be applied for bulk images in a folder, results are saved in a user selected folder with histograms. 
+This application can be used to quickly view how different **Thresholding Methods** work on images. Selected threshold methods can be applied for bulk images in a folder, results are saved in a user selected folder with histograms.
 Supported Thresholding Methods,
 1. Yen’s method
 2. Triangle algorithm
@@ -8,3 +8,13 @@ Supported Thresholding Methods,
 4. Minimum method
 5. Mean of grayscale values
 6. ISODATA method
+
+![APP Screenshot](Automatic_Thresholding/Screenshot.PNG)
+
+## Executale can be downloaded from [Automatic_Thresholding](https://drive.google.com/file/d/1-In2zPExB9P4kbyCyba5jiUC8uRcHIk4/view?usp=sharing)
+
+## How to manually create an executable, ?
+
+1. Download and install [Python](https://www.python.org/downloads/)
+2. Install  following packages,
+
