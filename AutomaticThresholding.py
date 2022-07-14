@@ -1,7 +1,5 @@
 import sys
 import os
-from turtle import width
-from matplotlib.image import FigureImage
 import numpy as np
 try:
     import PySide2
