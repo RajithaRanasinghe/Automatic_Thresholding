@@ -17,23 +17,24 @@ Supported Thresholding Methods,
 
 1. Download and install [Python](https://www.python.org/downloads/)
 2. Install  following packages,
-Numpy,
+
+**Numpy**,
 ```
 pip install numpy
 ```
-PySide2,
+**PySide2**,
 ```
 pip install PySide2
 ```
-Matplotlib,
+**Matplotlib**,
 ```
 pip install matplotlib
 ```
-scikit-image,
+**scikit-image**,
 ```
 python -m pip install -U scikit-image
 ```
-PyInstaller,
+**PyInstaller**,
 ```
 pip install pyinstaller
 ```
