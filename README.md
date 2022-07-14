@@ -17,4 +17,32 @@ Supported Thresholding Methods,
 
 1. Download and install [Python](https://www.python.org/downloads/)
 2. Install  following packages,
+Numpy,
+```
+pip install numpy
+```
+PySide2,
+```
+pip install PySide2
+```
+Matplotlib,
+```
+pip install matplotlib
+```
+scikit-image,
+```
+python -m pip install -U scikit-image
+```
+PyInstaller,
+```
+pip install pyinstaller
+```
+3. Build .exe from pyinstaller
+```
+pyinstaller --icon=icon.ico -F --noconsole --onefile AutomaticThresholding.py
+```
+
+The executable file can be found in the **dist** folder 
+
+
 
