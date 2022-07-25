@@ -157,7 +157,7 @@ class Main(QMainWindow):
         x = Input_image_numpy.ravel()
         a.hist(x)
         whitePxl = np.sum(x)
-        a.set_title('Input Histogram / Total white pixels = {}'.format(whitePxl)')
+        a.set_title('Input Histogram / Total white pixels = {}'.format(whitePxl))
         a.set_xlabel('Pixel Intensity Value')
         a.set_ylabel('Numper of Pixels')
 
@@ -171,7 +171,7 @@ class Main(QMainWindow):
         x = np.uint8(Output_image_numpy.ravel())
         a.hist(x)
         whitePxl = np.sum(x)
-        a.set_title('Histogram Output / Total white pixels = {}'.format(whitePxl)')
+        a.set_title('Histogram Output / Total white pixels = {}'.format(whitePxl))
         a.set_xlabel('Pixel Intensity Value')
         a.set_ylabel(''Numper of Pixels')
 
