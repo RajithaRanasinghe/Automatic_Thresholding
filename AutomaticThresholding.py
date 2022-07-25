@@ -173,7 +173,7 @@ class Main(QMainWindow):
         whitePxl = np.sum(x)
         a.set_title('Histogram Output / Total white pixels = {}'.format(whitePxl))
         a.set_xlabel('Pixel Intensity Value')
-        a.set_ylabel(''Numper of Pixels')
+        a.set_ylabel('Numper of Pixels')
 
         fig.subplots_adjust(left=0.1,
                     bottom=0.1, 
