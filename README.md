@@ -9,7 +9,7 @@ Supported Thresholding Methods,
 5. Mean of grayscale values
 6. ISODATA method
 
-![APP Screenshot](Screenshot.PNG)
+![APP Screenshot](Screenshot_v0.2.PNG)
 
 ## Executale can be downloaded from [This Link](https://drive.google.com/file/d/1-In2zPExB9P4kbyCyba5jiUC8uRcHIk4/view?usp=sharing)
 
