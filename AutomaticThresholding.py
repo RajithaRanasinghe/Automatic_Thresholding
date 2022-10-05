@@ -156,10 +156,9 @@ class Main(QMainWindow):
         a=fig.add_subplot(2,2,2)
         x = Input_image_numpy.ravel()
         a.hist(x)
-        whitePxl = np.sum(x)
-        a.set_title('Input Histogram / Total white pixels = {}'.format(whitePxl))
+        a.set_title('Input Histogram')
         a.set_xlabel('Pixel Intensity Value')
-        a.set_ylabel('Numper of Pixels')
+        a.set_ylabel('Number of Pixels')
 
 
         a=fig.add_subplot(2,2,3)
@@ -171,9 +170,10 @@ class Main(QMainWindow):
         x = np.uint8(Output_image_numpy.ravel())
         a.hist(x)
         whitePxl = np.sum(x)
-        a.set_title('Histogram Output / Total white pixels = {}'.format(whitePxl))
+        blackPxl = len(x) - whitePxl
+        a.set_title('Output / white pixels = {} / black pixels = {}'.format(whitePxl, blackPxl))
         a.set_xlabel('Pixel Intensity Value')
-        a.set_ylabel('Numper of Pixels')
+        a.set_ylabel('Number of Pixels')
 
         fig.subplots_adjust(left=0.1,
                     bottom=0.1, 
