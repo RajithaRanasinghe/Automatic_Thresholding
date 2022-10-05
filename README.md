@@ -11,7 +11,7 @@ Supported Thresholding Methods,
 
 ![APP Screenshot](Screenshot_v0.2.PNG)
 
-## Executale can be downloaded from [This Link](https://drive.google.com/file/d/1-In2zPExB9P4kbyCyba5jiUC8uRcHIk4/view?usp=sharing)
+## Executale can be downloaded from [This Link]([https://drive.google.com/file/d/1-In2zPExB9P4kbyCyba5jiUC8uRcHIk4/view?usp=sharing](https://drive.google.com/drive/folders/1olS4IKRiPtpX-ii3u4-75_JsBRmyryDd?usp=sharing))
 
 ## How to manually create an executable, ?
 
