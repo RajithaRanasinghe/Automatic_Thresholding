@@ -40,7 +40,7 @@ pip install pyinstaller
 ```
 3. Build .exe from pyinstaller
 ```
-pyinstaller --icon=icon.ico -F --noconsole --onefile AutomaticThresholding.py
+pyinstaller --icon=icon.ico -F --noconsole --onefile --clean AutomaticThresholding.py
 ```
 
 The executable file can be found in the **dist** folder 
