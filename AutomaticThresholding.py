@@ -15,6 +15,9 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
+
+
+
 class Main(QMainWindow):
     def __init__(self, parent=None):
         super(Main, self).__init__(parent)
