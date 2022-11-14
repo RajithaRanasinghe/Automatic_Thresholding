@@ -1,0 +1,5 @@
+python.exe -m pip install --upgrade pip
+pip freeze > requirements.txt
+python -m venv env
+pip install -r requirements.txt
+cxfreeze -c main.py --icon=icon.ico --target-dir dist --packages=torch --target-name=Dust-Cloud-Identification --base-name Win32GUI

@@ -9,9 +9,9 @@ Supported Thresholding Methods,
 5. Mean of grayscale values
 6. ISODATA method
 
-![APP Screenshot](Screenshot_v0.2.PNG)
+![APP Screenshot](Screenshot.PNG)
 
-## Executale can be downloaded from [This Link](https://drive.google.com/drive/folders/1olS4IKRiPtpX-ii3u4-75_JsBRmyryDd?usp=sharing)
+## Executale can be downloaded from [This Link](https://drive.google.com/file/d/1-In2zPExB9P4kbyCyba5jiUC8uRcHIk4/view?usp=sharing)
 
 ## How to manually create an executable, ?
 
@@ -40,7 +40,7 @@ pip install pyinstaller
 ```
 3. Build .exe from pyinstaller
 ```
-pyinstaller --icon=icon.ico -F --noconsole --onefile --clean AutomaticThresholding.py
+pyinstaller --icon=icon.ico -F --noconsole --onefile AutomaticThresholding.py
 ```
 
 The executable file can be found in the **dist** folder 
