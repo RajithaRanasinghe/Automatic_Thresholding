@@ -1,28 +1,10 @@
 import sys
 import os
 import numpy as np
-try:
-    import PySide2
-    #print("PySide2 Detected")
-except:
-    pass
-try:
-    import PyQt5
-    #print("PySide2 Detected")
-except:
-    pass
 
-if 'PySide2' in sys.modules:
-    from PySide2.QtGui import QPixmap,QPalette,QColor,QPainter, QPen, QBrush, QImage
-    from PySide2.QtWidgets import QWidget,QComboBox,QDialog, QCheckBox, QMessageBox, QFileDialog, QPushButton, QLineEdit, QProgressBar, QGridLayout, QHBoxLayout, QVBoxLayout, QApplication, QSplashScreen,QTabWidget,QMainWindow,QLabel,QStyleFactory,QDialogButtonBox
-    from PySide2.QtCore import QTimer,Qt,QSize
-elif 'PyQt5' in sys.modules:
-    from PyQt5.QtGui import QPixmap,QPalette,QPainter, QPen, QColor, QBrush, QImage
-    from PyQt5.QtWidgets import QWidget,QComboBox,QDialog, QCheckBox, QMessageBox, QFileDialog, QPushButton, QLineEdit, QProgressBar, QGridLayout, QHBoxLayout, QVBoxLayout, QApplication, QSplashScreen,QTabWidget,QMainWindow,QLabel,QStyleFactory,QDialogButtonBox
-    from PyQt5.QtCore import QTimer,Qt,QSize,QColor
-else:
-    sys.exit()
-    #print("Missing PySide2 or PyQt5")
+from PySide2.QtWidgets import QWidget, QComboBox, QCheckBox, QMessageBox, QFileDialog, QPushButton, QLineEdit, QProgressBar, QGridLayout, QHBoxLayout, QVBoxLayout, QApplication, QMainWindow, QLabel
+from PySide2.QtCore import Qt, QSize
+
 
 
 from skimage import io as sk_io, color as sk_col, morphology as sk_mm
@@ -38,7 +20,7 @@ class Main(QMainWindow):
         super(Main, self).__init__(parent)
 
         #Setup basics
-        self.title = "Automatic Thresholding"    
+        self.title = "Automatic Thresholding V 0.2"    
         self.setWindowTitle(self.title)
         self.setFixedSize(QSize(1024, 768))
 
